@@ -1,0 +1,125 @@
+.row{
+	width: 100%;
+}
+#banner{
+	height: 400px;
+	background-image: url("../images/banner.jpg");
+}
+
+#webname span{
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #336B87;
+    color: #fff;
+    opacity: .8;
+}
+#knowledge{
+	/*padding-top: 31px;*/
+	padding-left: 20px;
+
+}
+.studies{
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+#bar{
+	/*background-color: red;*/
+}
+.projects{
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+#website{
+
+	/*background-image: url("../images/afrinames.png");*/
+
+	width: 375px;
+	height: 200px;
+	margin-bottom: 20px;
+	position: relative;
+	overflow: hidden;
+
+	color: red;
+}
+
+.Aboutme{
+	background-color: #2A3132;
+	width: 100%;
+	color: white;
+	padding-bottom: 16px;
+
+}
+#progressbar{
+	background-image: url("../images/blueloadingbar.jpg");
+
+
+	height: 400px;
+
+}
+
+#customers{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #336B87;
+	color: white;
+	text-align: center;
+	font-size: 28px;
+
+
+}
+.mypills {
+	text-align: center;
+	width: 100%;
+	background-color: ;
+	 margin-left: auto;
+    margin-right: auto;
+
+
+}
+.nav-pills a{
+	color: white;
+	align-content: center;
+}
+.panel{
+	background-color: #336B87;
+}
+/* contact form css */
+.contact{
+ padding-top: 40px;
+ page-break-before: 40px;
+
+}
+
+/* nav bar */
+ #nav-list a{
+	color: white;
+}
+
+
+
+.navbar-default{
+	background-color: #336B87;
+	color: white;
+}
+#banner{
+ text-align: center;
+ width: 100%;
+ margin-top: 0;
+ overflow: hidden;
+}
+.footer{
+	background-color: #90AFC5;
+	width: 100%;
+	color: white;
+	padding-top: 40px;
+}
+.bar{
+	width: 50px;
+}
+

@@ -1,0 +1,46 @@
+.Solution-sc{
+	background-image: url("../images/Websitedev.jpg");
+}
+
+.Brightside{
+	background-image: url("../images/brightside.jpg");
+}
+.Lavington{
+	background-image: url("../images/lavigton.jpg");
+}
+.Paxxu{
+	background-image: url("../images/rapid.jpg");
+}
+.Ek{
+	background-image: url("../images/Websitedev.jpg");
+}
+.Afrinames{
+	background-image: url("../images/afrinames.png");
+}
+
+
+.Blueloadingbar{
+	background-image: url("../images/blueloadingbar.png") ;
+	background-repeat: no-repeat;
+	height: 40px;
+
+}
+.yellowprogressbar{
+	background-image: url("../images/yellowprogressbar.png") ;
+	background-repeat: no-repeat;
+	height: 40px;
+
+}
+.greenprogressbar{
+	background-image: url("../images/greenprogressbar.png") ;
+	background-repeat: no-repeat;
+	height: 40px;
+
+}
+
+.bluecircle{
+	background-image: url("../images/bluecircle.png") ;
+	background-repeat: no-repeat;
+	height: 20px;
+
+}
