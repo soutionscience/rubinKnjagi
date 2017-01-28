@@ -74,12 +74,11 @@
 
 }
 .mypills {
+	display: block;
 	text-align: center;
 	width: 100%;
 	background-color: ;
-	 margin-left: auto;
-    margin-right: auto;
-
+	
 
 }
 .nav-pills a{
@@ -122,4 +121,22 @@
 .bar{
 	width: 50px;
 }
+    .mypills {
+        text-align: center;
+        
+       
+    }
+    .mypills ul {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        /* For IE, the outcast */
+        zoom:1;
+        *display: inline;
 
+    }
+    .mypills li {
+        float: left;
+        padding: 2px 5px;
+        
+    }
