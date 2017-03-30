@@ -1,244 +1,73 @@
 <!DOCTYPE html>
 <html ng-app="rubin">
+
+<div ng-controller="mainController">
 <head>
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-<link rel="stylesheet" type="text/css" href="css/styles.css"/>
-<link rel="stylesheet" type="text/css" href="css/website.css"/>
-<script src="js/angular.js"></script>
-<script src="js/app.js"></script>
-	<title>Rubin Njagi</title>
-<nav id= "header-nav" class="navbar navbar-default">
-<div class="container">
-<div class="navbar-header">
-
-             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-
-</div>
-<div id ="collapsable-nav" class=" collapse navbar-collapse">
-  <ul id="nav-list" class="nav navbar-nav navbar-left">
-  <li>
-  <a href="#">Home</a>
-
-  </li>
-  <li>
-  <a href="#">About</a>
-
-  </li>
-  <li>
-  <a href="#">Contacts</a>
-
-  </li>
-
-  </ul>
-</div>
+<page-header></page-header>
 
 
-        </div>
 
-        </nav>
-
+<title>Rubin Njagi</title>
 </head>
 <body>
-<div class="container">
-<div id="banner" class="hidden-xs">
-	test
-</div>
-<div id="projects">
- <h2>My recent Projects</h2>
-	<div class="row">
-		<div class="col-md-4 col-sm-6 col-xs-12">
 
-			<a href="#"><div id="website" class="Solution-sc"><div id="webname"><span>Solution Science</span></div></div></a>
-		</div>
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<a href="#"><div id="website" class="Afrinames"><div id="webname"><span>Afrinames</span></div></div></a>
-		</div>
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<a href="#"><div id="website" class="Paxxu"><div id="webname"><span>Rapid</span></div></div></a>
-		</div>
-		<!--<div class="col-md-4 col-sm-6 col-xs-12">
-			<a href="#"><div id="website" class="Brightside"><div id="webname"><span>Brightside</span></div></div></a>
-		</div>
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<a href="#"><div id="website" class="Ek"><div id="webname"><span>Ex Kenya</span></div></div></a>
-		</div>
-		<div class="col-md-4 col-sm-6 col-xs-12">
-			<a href="#"><div id="website" class="Lavington"><div id="webname"><span>Lavington</span></div></div></a>
-		</div>-->
-	</div><!-- end of row-->
-</div><!--end of class projects-->
 
-</div><!--end of container for projects-->
-<div class="Aboutme">
-<div class="container">
-<div>
-
-<h2>About me</h2>
-<div class= "row">
-<div id="skills" class=" col-md-7">
-<h3> Skills</h3>
-<div class ="row">
-	<div class="col-md-8 col-sm-6" >
-
-	<div id="bar" class="Blueloadingbar hidden-sm">
-
-	
-
-	</div>
-
-	<div id="bar" class="Blueloadingbar hidden-xs">
-	
-	</div>
-
-	<div id="bar" class="yellowprogressbar hidden-xs">
-
-	</div>
-
-	<div id="bar" class="greenprogressbar hidden-xs">
-
-	</div>
-
-	</div>
-	<div id="knowledge" class="col-md-4 col-sm-6" ></div>
-	<div class="studies">
-		<p> HTML, CSS, JAVASCRIPT</p>
-	</div>
-	<div class="studies">
-		<p> WEB APPLICATION DEV</p>
-	</div>
-	<div class="studies">
-		<p> RUBY ON RAILS</p>
-	</div>
-
-	<div class="studies">
-		<p> ANDROID DEVELOPMENT</p>
-	</div>
-
-</div>
+<top-contacts></top-contacts> <!-- shows top contacts -->
+<top-menu></top-menu>
+<slide-banner></slide-banner> <!-- shows slider banner -->
+<about-me></about-me> <!-- shows about me information -->
+<my-portfolio></my-portfolio> <!-- Shows my portfolio -->
+<!-- <my-spec></my-spec> --> <!-- shows my specialities -->
+<my-specials></my-specials>
+<contact-form></contact-form>
 
 
 
-</div><!--end of skills -->
-<div id="story" class="col-md-5">
-<h3>Education</h3>
-<h4>Rails Specialization (on going)</h4>
-<h5>John Hopkins University</h5>
-<p>This course covers the fundamentals of web development with Ruby on Rails.
-It also covers advanced topics such as security, services using HTTP/RESTful access patterns, and user access and user experience from multiple device <br>
-</p>
-<p>_________________________________</p>
-<h4> B.Sc. Business Information Tech (2011)</h4>
-<h5>Strathmore University</h5>
-<p>This course encompasses areas of computer science,  information systems, Business, Financial Management and IT management</p>
-
-</div>
-
-</div><!--end of row-->
-</div>
-</div><!-- end of aboutme container-->
-
-</div><!-- end of about me-->
-<div id="customers">
-<div class="container">
-<section ng-init= "tab = 1">
-
-
-<div class="panel " ng-show="tab === 1">
-<h4> Happy client</h4>
-<p>"Am very happy and excited with the website we developed.<br> Thank you. "</p>
-<h5>Mrs. Carol Hertmire</h5>
-</div>
-<div class="panel " ng-show="tab === 2">
-<h4> Another Happy client</h4>
-<p>"The website we created is a reflection of the image my organisation wants to potray.<br> I am very happy with the work done"</p>
-<h5>Dr. Peter Njagi</h5>
-</div>
-
-<div class= "mypills">
-
-<ul class=" nav nav-pills wrapper">
-<li ng-class="{active:tab === 1}">
-<a href ng-click="tab = 1"> <p class="glyphicon glyphicon-adjust "></p></a>
-</li>
-<li ng-class="{active:tab === 2}">
-<a href ng-click="tab = 2"><p class="glyphicon glyphicon-adjust "></p</a>
-</li>
-</ul>
-
-
-</div>
-</section>
-
-</div><!-- end of customers container-->
-
-</div><!-- end of customers-->
-<div class="contact">
-<div class="container" >
-<!-- <form id="myform" class="form-horizontal" role="form" method="post" action="index.php">
-	<div class="form-group">
-		<label for="name" class="col-sm-2 control-label">Name</label>
-		<div class="col-sm-10">
-			<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="email" class="col-sm-2 control-label">Email</label>
-		<div class="col-sm-10">
-			<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="message" class="col-sm-2 control-label">Message</label>
-		<div class="col-sm-10">
-			<textarea class="form-control" rows="4" name="message"></textarea>
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
-		<div class="col-sm-10">
-			<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
-		</div>
-	</div>
-	<div class="form-group">
-		<div class="col-sm-10 col-sm-offset-2">
-			<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-		</div>
-	</div>
-	<div class="form-group">
-		<div class="col-sm-10 col-sm-offset-2">
-
-		</div>
-	</div>
-</form> -->
-
-
-<!-- www.123contactform.com script begins here -->
-
-<!-- www.123contactform.com script begins here -->
-<script type="text/javascript" defer src="//www.123contactform.com/embed/2441475.js" data-role="form"></script>
-<!-- script ends here -->
 
 
 
-</div><!-- end of contact container-->
 
-</div><!-- end of contact-->
+<!-- includes -->
+
+
+<script
+
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+ <script type="text/javascript" src="js/includes/jquery.roundabout.min.js"></script>
+ <script type="text/javascript" src="js/includes/slick.min.js"></script>
+
+
+<script src="js/angular.js"></script>
+
+<script src="js/app.js"></script>
+
+
+
+<!-- controllers -->
+<script src="js/controllers/mainController.js"></script>
+
+<!-- directives-->
+ <script src="js/directives/slide-banner/slideBanner.js"></script>
+<script src="js/directives/topcontacts/topContacts.js"></script>
+<script src="js/directives/top-menu/topMenu.js"></script>
+<script src="js/directives/about-me/aboutMe.js"></script>
+<script src="js/directives/my-portfolio/myPortfolio.js"></script>
+<script src="js/directives/my-spec/mySpec.js"></script>
+<script src="js/directives/my-specials/mySpecials.js"></script>
+<script src="js/directives/my-projects/myProjects.js"></script>
+<script src="js/directives/contact-form/contactForm.js"></script>
+
+
+
+
+
+
+<script src="js/directives/pageHeader.js"></script>
+
 
 </body>
-<footer>
-    <div class="footer">
-    <div class="container">
-      <div id="footeremail">
-        <p>Email: rubinnjagi@yahoo.com</p>
-				<p>© 2016</p>
-      </div>
-    </div>
-
-    </div>
-  </footer>
+</div>
 </html>
