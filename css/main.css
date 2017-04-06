@@ -36,7 +36,7 @@
 	padding-left: 50px;
         
 }
-.mySlider div{background-color: rgba(0,0,0,0.4); width: 300px; border-radius: 5%; padding: 8px; }
+.mySlider div{width: 300px; border-radius: 5%; padding: 8px; font-size: 1.6em;}
 /* about*/
 .about{ padding-top: 40px ; padding-bottom: 40px;}
 .about span{ color: #ffd556; font-size: 2em; }
