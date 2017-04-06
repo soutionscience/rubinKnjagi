@@ -28,7 +28,7 @@
 
 .slider{
 	height: 400px;
-	background-image: url("/images/background/banner4.png");
+	background-image: url("./images/background/banner4.png");
 	background-size: cover;
 	color: white;
 	padding-top: 100px;
