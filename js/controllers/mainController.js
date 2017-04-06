@@ -1,20 +1,18 @@
-app.controller('mainController', ['$scope', function($scope){
+app.controller('mainController', ['$scope','$http', '$sce', function($scope, $http, $sce){
 
 	$scope.simo ="Simon Muthee";
 
-	$scope.menuItems = [
-	{
-		Description: "Projects",
-		img: "",
-		Story: ""
 
-	},{
+	$http.get('website_projects.json').then(function(websiteData){
 
-		Description: "About",
-		img: "",
-		Story: ""
+		$scope.myWebsites= websiteData.data;
+		$scope.websiteLength= $scope.myWebsites.length
 
-	}
-	];
+	})
+	.catch (function(error){
+	console.log("For fucks sake");
+
+});
+
 	
 }]);

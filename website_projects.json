@@ -1,0 +1,55 @@
+[
+			{
+					"Name": "Solution Science Technologies",
+					"Desc": "Company Website Developed in angular Js",
+					"url": "www.solutionsciencetechnologies.com",
+					"image": "images/projects/solutionscience.png",
+					"architecture" : "angular",
+					"job-type": "contract"
+            },
+
+            {
+					"Name": "Trappist-1",
+					"Desc": "Fun Project Developed in angular Js",
+					"url": "www.trappist-1.tk",
+					"image": "images/projects/trappist.png",
+				    "architecture" : "angular",
+					"job-type": "fun"
+            },
+
+            {
+					"Name": "Movie Place",
+                    "Desc": "Fun Project Developed in angular Js",
+					"url": "www.movieplace.tk",
+					"image": "images/projects/movieplace.png",
+					"architecture" : "angular",
+                    "job-type": "fun"
+            },
+            {
+					"Name": "Brightside",
+					"Desc": "Company Project Developed in angular Js",
+					"url": "www.brightsiderehabilitation.org",
+					"image": "images/projects/brightside.png",
+					 "architecture" : "angular",
+                     "job-type": "contract"
+            },
+            {
+					"Name": "Experience Kenya",
+					"Desc": "Company Project Developed in Ruby on Rails",
+					"url": "www.experienceKenya.co.ke",
+					"image": "images/projects/Ek.png",
+					 "architecture" : "ruby",
+
+					"job-type": "contract"
+            },
+            {
+					
+					"Name": "African Names",
+					"Desc": "Company Project Developed in Ruby on Rails",
+					"url": "www.africannames.mk",
+					"image": "images/projects/AN.png",
+					 "architecture" : "ruby",
+
+					"job-type": "contract"
+            }
+]
