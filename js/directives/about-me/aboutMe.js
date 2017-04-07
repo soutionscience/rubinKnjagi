@@ -9,7 +9,7 @@ app.directive('aboutMe', function(){
 		// require: 'ngModel', // Array = multiple requires, ? = optional, ^ = check parent elements
 		 restrict: 'E', // E = Element, A = Attribute, C = Class, M = Comment
 		// template: '',
-		 templateUrl: '/js/directives/about-me/aboutMe.html',
+		 templateUrl: '/js/directives/about-me/aboutme.html',
 		// replace: true,
 		// transclude: true,
 		// compile: function(tElement, tAttrs, function transclude(function(scope, cloneLinkingFn){ return function linking(scope, elm, attrs){}})),
