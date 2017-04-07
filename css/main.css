@@ -45,7 +45,7 @@
 
 /*portfolio*/
 
-.portfolio{ background-image: url(../images/background/banner2.png); height: auto; background-size: cover; 
+.projectsHeader{ background-image: url(../images/background/banner2.png); height: auto; background-size: cover; 
 padding-bottom: 40px;
 /*margin-bottom: 40px;*/
 color: white;
